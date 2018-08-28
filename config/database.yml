@@ -14,12 +14,12 @@ development:
 
 
 test:
-  adapter: postgresql
-  encoding: unicode
-  database: HpgApp_test
-  pool: 5
-  username: #hodaritoure
-  password:
+ adapter: postgresql
+ encoding: unicode
+ database: HpgApp_test
+ pool: 5
+ username: #hodaritoure
+ password:
 
 production:
   adapter: postgresql

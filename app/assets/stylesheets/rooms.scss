@@ -25,8 +25,8 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
-  padding-top: 53px;
-  padding-bottom: 64px;
+  /*padding-top: 53px;
+  padding-bottom: 64px;*/
 }
 
 blockquote {
@@ -95,7 +95,13 @@ footer {
 }
 
 header {
-  display: block;
+      display: block;
+    background: #808080;
+        position: fixed;
+    width: 100%;
+    opactiy:.9;
+    height:180px;
+    z-index:100
 }
 
 hgroup {
@@ -139,11 +145,11 @@ main {
 }
 
 .footer {
-  position: absolute;
+ /* position: absolute;
   left: 0;
   bottom: 0;
   height: 64px;
-  width: 100%;
+  width: 100%;*/
 }
 
 .team-menu {

@@ -1,1 +1,1 @@
-Figaro.require_keys('devise_secret_key')
+Figaro.require_keys('config.secret_key')
